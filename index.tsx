@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import nlp from 'compromise';
 
+const BACKEND_URL = "https://medguard-backend-slmh.onrender.com"; 
+
 // --- Icons (SVGs) ---
 const Icons = {
   Shield: (props: any) => (
